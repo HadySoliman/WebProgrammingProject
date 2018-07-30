@@ -15,8 +15,9 @@
 
 	<!-- Custom styles for this template -->
 	<link href="css/simple-sidebar.css" rel="stylesheet">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -69,19 +70,31 @@
 					<h3 ng-hide="newUser">New Model</h3>
 				</div>
 				<ul class="nav nav-tabs">
-					<li><a href="#a" data-toggle="tab">a</a></li>
-					<li><a href="#b" data-toggle="tab">b</a></li>
-					<li><a href="#c" data-toggle="tab">c</a></li>
-					<li><a href="#d" data-toggle="tab">d</a></li>
+					<li><a href="#a" data-toggle="tab">TEST1</a></li>
+					<li><a href="#b" data-toggle="tab">TEST2</a></li>
+					<li><a href="#c" data-toggle="tab">TEST3</a></li>
+					<li><a href="#d" data-toggle="tab">TEST4</a></li>
 				</ul>
-
 				<div class="tab-content">
-					<div class="tab-pane active" id="a">AAA</div>
-					<div class="tab-pane" id="b">BBB</div>
-					<div class="tab-pane" id="c">CCC</div>
-					<div class="tab-pane" id="d">DDD</div>
+					<div id="a" class="tab-pane fade in active">
+						<h3>Home</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quasi eaque eum provident doloremque incidunt esse possimus error ad, omnis impedit facilis magni ducimus a. Molestias officiis sed, officia accusantium.</p>
+					</div>
+					<div id="b" class="tab-pane fade">
+						<h3>Menu 1</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div id="c" class="tab-pane fade">
+						<h3>Menu2 </h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div id="d" class="tab-pane fade">
+						<h3>Menu3 </h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</div>
-			</div>
+			</div> 
 			<!-- /#page-content-wrapper -->
 
 		</div>
@@ -99,11 +112,6 @@
 			});
 		</script>
 		<script type="text/javascript">
-		$(document).ready(function(){
-    		$(".nav-tabs a").click(function(){
-      		  $(this).tab('show');
-   		 });
-			});
 		</script>
 
 	</body>
