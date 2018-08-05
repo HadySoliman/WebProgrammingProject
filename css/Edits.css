@@ -1,11 +1,19 @@
 
-#a,#b,#c,#d,#a7a{	margin-top: 15px;
-		    padding: 5px 0px 5px 5px;
-
-	    border: 2px solid #E8E8E8	; 
+#a,#b,#c,#d{	
+		margin-top: 15px;
+		padding: 0px 0px 0px 0px;
+	    border: 2px solid #E8E8E8; 
 	  	border-radius: 15px;
-	    background-color: #E8E8E8	;
+	    background-color: #E8E8E8;
+	    border-width: 20px;
+}
 
 
+#NewFile{
+	margin: 15px;
+}
 
+.aaa{
+	position: relative;
+	left: 20px;
 }
