@@ -13,9 +13,10 @@
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
+	<!-- Custom styles-->
+	<link href="css/Edits.css" rel="stylesheet">
 	<link href="css/simple-sidebar.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+ 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -33,7 +34,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">Dashboard</a>
+					<a href="#">File</a>
 				</li>
 				<li>
 					<a href="#">Shortcuts</a>
@@ -66,32 +67,37 @@
 				<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
 			</div>
 			<div class="NewModel">
-				<div class="modal-header">
-					<h3 ng-hide="newUser">New Model</h3>
-				</div>
+					<h2 ng-hide="newUser">NEW FILE</h2>
+				
 				<ul class="nav nav-tabs">
-					<li><a href="#a" data-toggle="tab">TEST1</a></li>
-					<li><a href="#b" data-toggle="tab">TEST2</a></li>
-					<li><a href="#c" data-toggle="tab">TEST3</a></li>
-					<li><a href="#d" data-toggle="tab">TEST4</a></li>
+					<li><a href="#a" data-toggle="tab">Type</a></li>
+					<li><a href="#b" data-toggle="tab">Stimulation Type</a></li>
+					<li><a href="#c" data-toggle="tab">Define inputs</a></li>
+					<li><a href="#d" data-toggle="tab">Define equations</a></li>
 				</ul>
 				<div class="tab-content">
 					<div id="a" class="tab-pane fade in active">
-						<h3>Home</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quasi eaque eum provident doloremque incidunt esse possimus error ad, omnis impedit facilis magni ducimus a. Molestias officiis sed, officia accusantium.</p>
+						<h3>Menu 0</h3>
+						<input type="file" name="myFile"><br><br>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<img  src="1st.png" height="10px">
 					</div>
 					<div id="b" class="tab-pane fade">
 						<h3>Menu 1</h3>
 						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<img src="2nd.png" height="10px">
 					</div>
 					<div id="c" class="tab-pane fade">
 						<h3>Menu2 </h3>
 						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<img src="3rd.png" height="10px">
+
 					</div>
 					<div id="d" class="tab-pane fade">
 						<h3>Menu3 </h3>
 						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<img src="4th.png" height="10px">
+
 					</div>
 				</div>
 			</div> 
