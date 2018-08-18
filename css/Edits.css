@@ -1,14 +1,16 @@
 
-#a,#b,#c,#d{	
+#a,#b,#c,#d,#a1,#a2,#a3,#a4{
+    box-sizing: border-box;	
 		margin-top: 15px;
 		padding: 0px 0px 0px 0px;
 	    border: 2px solid #E8E8E8; 
 	  	border-radius: 15px;
 	    background-color: #E8E8E8;
 	    border-width: 20px;
+
 }
 
-#NewModel {
+#NewModel, #Structure {
 	padding-top: 20px;
 	padding-left: 20px;
 

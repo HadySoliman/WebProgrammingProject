@@ -70,45 +70,75 @@
 					</div>
 				</div>
 			</div>
-			<div id="NewModel" class="tab-pane fade in"> <!-- new model -->
-					<h2>NEW MODAL</h2>
-					<ul class="nav nav-tabs">
-						<li><a href="#a" data-toggle="tab">Type</a></li>
-						<li><a href="#b" data-toggle="tab">Stimulation Type</a></li>
-						<li><a href="#c" data-toggle="tab">Define inputs</a></li>
-						<li><a href="#d" data-toggle="tab">Define equations</a></li>
-					</ul>
-					<div class="tab-content">
-						<div id="a" class="tab-pane fade in active">
-							<h4>Select Type - 0</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure amet et esse ex, placeat temporibus autem aliquam nesciunt modi non est, consequatur, vero repudiandae id molestiae ipsa, optio quasi quod Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sit reprehenderit harum odit. In voluptates maiores laboriosam suscipit officia explicabo dignissimos aspernatur expedita, saepe at, distinctio tenetur eveniet rerum quasi.</p>
-							<div id="NewFile">
-								<!--<label for="inputState">State</label> -->  
-								<select id="inputState" class="form-control">
-									<option selected>Type...</option>
-									<option>Type1</option>
-									<option>Type2</option>
-									<option>Type3</option>
-								</select>
-							</div>
-							<img src="1st.png" height="10px">
+			<div id="NewModel" class="tab-pane fade in">
+					<h1>Solar Cell Simulator</h1>
+						<p>The target of this project to simulate solar cell physics and report the output performance through robust web-interface. The project should support multi-physics processing plus extendable solar cell modules, including layers, contacts, and various solar cell structures, in a user-friendly interface</p>
+				<!-- new model control -->
+				<h2>NEW MODAL</h2>
+				<ul class="nav nav-tabs">
+					<li><a href="#a" data-toggle="tab">Type</a></li>
+					<li><a href="#b" data-toggle="tab">Stimulation Type</a></li>
+					<li><a href="#c" data-toggle="tab">Define inputs</a></li>
+					<li><a href="#d" data-toggle="tab">Define equations</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="a" class="tab-pane fade in active">
+						<h4>Select Type - 0</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure amet et esse ex, placeat temporibus autem aliquam nesciunt modi non est, consequatur, vero repudiandae id molestiae ipsa, optio quasi quod Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sit reprehenderit harum odit. In voluptates maiores laboriosam suscipit officia explicabo dignissimos aspernatur expedita, saepe at, distinctio tenetur eveniet rerum quasi.</p>
+						<div id="NewFile">
+							<!--<label for="inputState">State</label> -->  
+							<select id="inputState" class="form-control">
+								<option selected>Type...</option>
+								<option>Type1</option>
+								<option>Type2</option>
+								<option>Type3</option>
+							</select>
 						</div>
-						<div id="b" class="tab-pane fade">
-							<h4>Stimulation Type - 1</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure amet et esse ex, placeat temporibus autem aliquam nesciunt modi non est, consequatur, vero repudiandae id molestiae ipsa, optio quasi quod Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sit reprehenderit harum odit. In voluptates maiores laboriosam suscipit officia explicabo dignissimos aspernatur expedita, saepe at, distinctio tenetur eveniet rerum quasi.</p>
-							<div id="NewFile">
-								<!--<label for="inputState">State</label> -->  
-								<select id="inputState" class="form-control">
-									<option selected>Type...</option>
-									<option>Type1</option>
-									<option>Type2</option>
-									<option>Type3</option>
-								</select>
-							</div>
-							<img src="2nd.png" height="10px">
+						<img src="1st.png" height="10px">
+					</div>
+					<div id="b" class="tab-pane fade">
+						<h4>Stimulation Type - 1</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure amet et esse ex, placeat temporibus autem aliquam nesciunt modi non est, consequatur, vero repudiandae id molestiae ipsa, optio quasi quod Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sit reprehenderit harum odit. In voluptates maiores laboriosam suscipit officia explicabo dignissimos aspernatur expedita, saepe at, distinctio tenetur eveniet rerum quasi.</p>
+						<div id="NewFile">
+							<!--<label for="inputState">State</label> -->  
+							<select id="inputState" class="form-control">
+								<option selected>Type...</option>
+								<option>Type1</option>
+								<option>Type2</option>
+								<option>Type3</option>
+							</select>
 						</div>
-						<div id="c" class="tab-pane fade">
-							<h4>Define Inputs</h4>   
+						<br>
+						<img src="2nd.png" height="10px">
+					</div>
+					<div id="c" class="tab-pane fade">
+						<h4>Define Inputs</h4>   
+						<table class="table table-condensed">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Category</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<input type="text" class="form-control"  placeholder="">
+										<td>
+											<select id="inputState" class="form-control">
+												<option selected>Choose...</option>
+												<option>...</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</td>
+									</tr>
+								</tbody>
+								<img src="3rd.png" height="10px">
+							</table>
+						</div>
+						<div id="d" class="tab-pane fade">
+							<h4>Define Equations</h4>         
 							<table class="table table-condensed">
 								<thead>
 									<tr>
@@ -121,67 +151,145 @@
 										<td>
 											<input type="text" class="form-control"  placeholder="">
 											<td>
-												<select id="inputState" class="form-control">
-													<option selected>Choose...</option>
-													<option>...</option>
-													<option>...</option>
-													<option>...</option>
-												</select>
+												<input type="file" class="form-control-file">
 											</td>
 										</tr>
 									</tbody>
 								</table>
-								<img src="3rd.png" height="10px">
+
+								<img src="4th.png" height="10px">
+								<button type="submit" class="btn btn-primary mb-2 aaa">Submit</button>
+
 							</div>
-							<div id="d" class="tab-pane fade">
-								<h4>Define Equations</h4>         
+						</div> 
+					</div>
+					<div id="Structure" class="tab-pane fade in"> <!-- structure control -->
+	<h1>Solar Cell Simulator</h1>
+						<p>The target of this project to simulate solar cell physics and report the output performance through robust web-interface. The project should support multi-physics processing plus extendable solar cell modules, including layers, contacts, and various solar cell structures, in a user-friendly interface</p>						<h2>Structure</h2>
+						<ul class="nav nav-tabs">
+							<li><a href="#a1" data-toggle="tab">Define Input</a></li>
+							<li><a href="#a2" data-toggle="tab">Select Structure</a></li>
+							<li><a href="#a3" data-toggle="tab">Define inputs</a></li>
+							<li><a href="#a4" data-toggle="tab">Define equations</a></li>
+						</ul>
+						<div class="tab-content">
+							<div id="a1" class="tab-pane fade in active"> 
+								<h4>Category:</h4>
+								<select id="inputState" class="form-control">
+									<option selected>Type...</option>
+									<option>Type1</option>
+									<option>Type2</option>
+									<option>Type3</option>
+								</select>
 								<table class="table table-condensed">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th>Category</th>
+											<th>Param</th>
+											<th>Unit</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
 											<td>
-												<input type="text" class="form-control"  placeholder="">
-												<td>
-													<input type="file" class="form-control-file">
-												</td>
-											</tr>
-										</tbody>
-									</table>
+												<input type="text" class="form-control" placeholder="">
+											</td><td>
+												<input type="text" class="form-control" placeholder="">
 
-									<img src="4th.png" height="10px">
-									<button type="submit" class="btn btn-primary mb-2 aaa">Submit</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<br>
+								<img src="1st.png" height="10px">
 
+							</div>
+							<div id="a2" class="tab-pane fade"><h4>Select Structure:</h4>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aut illum, sapiente beatae debitis maxime reprehenderit doloremque, eligendi, provident harum adipisci eaque. Consectetur explicabo, alias voluptatem saepe quae! Nostrum, eius!
+								<br><br>
+								<select id="inputState" class="form-control">
+									<option selected>Type...</option>
+									<option>Type1</option>
+									<option>Type2</option>
+									<option>Type3</option>
+								</select>
+								<br>
+								<img src="2nd.png" height="10px">
 
+							</div>
+							<div id="a3" class="tab-pane fade">
+								<h4>Contacts:</h4>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, laboriosam, pariatur. Numquam quis, nobis, perferendis voluptatum ex, id quidem labore adipisci eveniet saepe ipsum fugiat quas dolorem! Possimus, necessitatibus. Recusandae.
+								<br>
+								<h4>Front contracts:</h4>
+								<select id="inputState" class="form-control">
+									<soption selected>Type...</option>
+										<option>Type1</option>
+										<option>Type2</option>
+										<option>Type3</option>
+									</select>
+									<h4>Back contracts:</h4>
+									<select id="inputState" class="form-control">
+										<soption selected>Type...</option>
+											<option>Type1</option>
+											<option>Type2</option>
+											<option>Type3</option>
+										</select>
+										<br>
+										<img src="3rd.png" height="10px">
+									</div>
+									<div id="a4" class="tab-pane fade">
+										<h4>Layers</h4>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt magnam, pariatur doloremque, ullam libero quibusdam. Perspiciatis quos porro tempora, fuga, fugit maiores architecto voluptatum vel tenetur quibusdam non ipsum possimus.
+										<div class="row">
+											<div class="col-sm-2">
+												<table class="table table-striped">
+													<thead>
+														<tr>
+															<th>layers</th>
+															<th>layers</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>layers</td>
+															<td>layers</td>
+														</tr>
+														<tr>
+															<td>layers</td>
+															<td>layers</td>
+														</tr>
+														<tr>
+															<td>layers</td>
+															<td>layers</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div class="col-sm-7">
+												<img class="catpic" src="https://placekitten.com/g/150/150">
+											</div>
+										</div>
+										<img src="4th.png" height="10px">
+
+									</div>
 								</div>
-							</div> 
-					</div>
-			<div id="Structure" class="tab-pane fade in"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, provident, laborum officia vel nihil aperiam reprehenderit odio expedita libero nemo, fugit ipsum natus esse voluptate eaque veniam pariatur corporis mollitia.
-			</p>
-			</div>
-			</div>
-	</div>
-				<!-- /#wrapper -->
 
-				<!-- Bootstrap core JavaScript -->
-				<script src="vendor/jquery/jquery.min.js"></script>
-				<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+								<!-- /#wrapper -->
+								<!-- Bootstrap core JavaScript -->
+								<script src="vendor/jquery/jquery.min.js"></script>
+								<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-				<!-- Menu Toggle Script -->
-				<script>
-					$("#menu-toggle").click(function(e) {
-						e.preventDefault();
-						$("#wrapper").toggleClass("toggled");
-					});
-				</script>
-				<script type="text/javascript">
-					$(function () {
-						$('#navTabs a:last').tab('show');
-					})
-				</script>
-			</body>
-			</html>
+								<!-- Menu Toggle Script -->
+								<script>
+									$("#menu-toggle").click(function(e) {
+										e.preventDefault();
+										$("#wrapper").toggleClass("toggled");
+									});
+								</script>
+								<script type="text/javascript">
+									$(function () {
+										$('#navTabs a:last').tab('show');
+									})
+								</script>
+							</body>
+							</html>
